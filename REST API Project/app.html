@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>REST API Project</title>
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <h1>USER Information</h1>
+        <button onclick="getdata()">GET DATA</button>
+        <div id="allposts"></div>
+    </body>
+    <style>
+        #allposts
+        {
+            padding: 10px;
+            justify-content: space-between;
+        }
+        .post
+        {
+            border-width: 1px;
+            border: black;
+            border-style: solid;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 2px;
+        }
+        .title
+        {
+            font-weight: bold;
+            font-size: 20;
+            color: blue;
+        }
+        .name, .email
+        {
+            font-size: 16;
+        }
+        .post button
+        {
+            background-color: rgb(79, 79, 255);
+            color: white;
+            border: none;
+            height: 40px;
+            width: 70px;
+        }
+    </style>
+</html>
